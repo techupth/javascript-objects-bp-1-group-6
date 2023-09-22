@@ -13,17 +13,17 @@ const employee = {
   }
 };
 
-console.log("'"+"Employee Name: " + employee.name +"'"); //'Employee Name: John Doe'
-console.log("'"+"Employee Age: " + employee.age +"'"); //'Employee Age: 18'
-console.log("'"+                //'
-  "Employee Address: " +        //Employee Address: 
-    employee.address.street +   //Address: 123 Main Street
-    ", " +                      //,
-    employee.address.city +     //Cityville
-    ", " +                      //,
-    employee.address.states +    //Stateville
-    ", " +                      //,
-    employee.address.country +  //Countryland
-    " " +                       //,
-    employee.address.postalCode //12345
-+"'");                          //'
+console.log("Employee Name: " + employee.name); //แก้ employees
+console.log("Employee Age: " + employee.age);
+console.log(
+  "Employee Address: " +
+  employee.address.street +
+  ", " +
+  employee.address.city +
+  ", " +
+  employee.address.states + //แก้ states
+  ", " +
+  employee.address.country +
+  " " +
+  employee.address.postalCode //แก้ address
+);
