@@ -10,7 +10,7 @@ const employee = {
     states: "Stateville",
     country: "Countryland",
     postalCode: "12345",
-  },
+  }
 };
 
 console.log("'"+"Employee Name: " + employee.name +"'"); //'Employee Name: John Doe'
